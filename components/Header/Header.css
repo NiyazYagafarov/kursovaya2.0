@@ -1,0 +1,40 @@
+.header-container{
+    display:flex;
+    height: 100px;
+    padding: 10px;
+    background-color: var(--color-light);
+}
+.header-counter{
+    margin-left: auto;
+    font-size: 30px;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+}
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 21px;
+    font-weight:normal;
+    padding-right: 40px;
+}
+.insta_button{
+	position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 30px;
+    left: 30px;
+}
+.vk_button{
+	position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 30px;
+    left: 90px;
+}
+.facebook_button{
+	position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 30px;
+    left: 150px;
+}

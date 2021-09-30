@@ -1,0 +1,87 @@
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color:  #67645F;
+    border-radius: 1px;
+}
+::-webkit-scrollbar-track{
+    background-color: white;
+}
+/* ------------------------------------------------------- */
+body{
+	background-color:#272727;
+}
+header{
+	display:flex;
+    height: 100px;
+	width: 100%;
+	overflow: auto;
+	color: #272727;
+	justify-content: flex-end;
+    align-items: center;
+}
+.menu{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 30px;
+	top: 40px;
+	color:#FFFFFF;
+	display:inline-block;
+	width: 15%;
+}
+.menu a{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 30px;
+	color:#FFFFFF;
+	text-decoration: none;
+}
+.menu a:hover{
+	color: #A4A0A0;
+}
+.textblock{
+	padding:10px;
+	background-color:#FFFFFF;
+}
+.textblock h1{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight:500;
+	font-size:30;
+	left:20px;
+	margin-left:20px;
+}
+.textblock h2{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight:300;
+	color:#6D654D;
+	font-size:22;
+	margin-left:20px;
+}
+.textblock h3{
+	font-family: 'Ubuntu', sans-serif;
+	color:#000000;
+	font-size:18;
+	font-weight:300;
+	margin-left:20px;
+	margin-right:40px;
+}
+.insta_button{
+	position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 30px;
+    left: 30px;
+}
+.vk_button{
+	position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 30px;
+    left: 90px;
+}
+.facebook_button{
+	position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 30px;
+    left: 150px;
+}

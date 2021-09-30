@@ -1,0 +1,103 @@
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color:  #67645F;
+    border-radius: 1px;
+}
+::-webkit-scrollbar-track{
+    background-color: white;
+}
+/* ------------------------------------------------------- */
+html body{
+	background-image: url(https://i.ibb.co/Fhcy8Jx/1.jpg);
+	background-size:cover;
+    background-repeat: no-repeat;
+}
+header{
+	display:flex;
+    height: 100px;
+	width: 100%;
+	overflow: auto;
+    justify-content: flex-end;
+    align-items: center;
+}
+.insta_button{
+	position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 30px;
+    left: 30px;
+}
+.vk_button{
+	position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 30px;
+    left: 90px;
+}
+.facebook_button{
+	position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 30px;
+    left: 150px;
+}
+.menu{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 30px;
+	top: 40px;
+	color:#FFFFFF;
+	display:inline-block;
+	width: 15%;
+}
+.main_item{
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 100px;
+	margin: 0 auto;
+	left:30%;
+}
+.main_item h1{
+	font-family: 'Sawarabi Gothic', sans-serif;
+	font-size: 50px;
+	text-align:center;
+	color: white;
+	position:relative;
+	padding: 0px;
+	
+}
+.main_item p{
+	font-family: 'Poiret One', cursive;
+	font-size:25px;
+	text-align:center;
+	color: white;
+	position:relative;
+}
+.buy{
+	position:relative;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size:20px;
+	padding:8px;
+	border-radius:17px;
+	background-color:#E38908;
+	color:#FFFFFF;
+	width: 150px;
+}
+.buy:hover{
+	background-color:#bb7109e1 ;
+}
+.buy a{
+	color: #FFFFFF;
+    text-decoration: none;
+}
+.menu a{
+	color: #FFFFFF;
+    text-decoration: none;
+}
+.menu a:hover{
+	color: #A4A0A0;
+}
