@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оформление заказа</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet"  type="text/css" href="css/sendform.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form">
+            <form action="#" id="form" class="form__body" >
+                <h1 class="form__title">Оформление заказа</h1>
+                <div class="form__item">
+                    <label for="formName" class="form__label">ФИО*:</label>
+                    <input id="formName" type="text" name="name" class="form__input _req">
+                </div>
+                <div class="form__item">
+                    <label for="formEmail" class="form__label">E-mail*:</label>
+                    <input id="formEmail" type="text" name="email" class="form__input _req _email">
+                </div>
+                <div class="form__item">
+                    <label for="formNumber" class="form__label">Номер телефона*:</label>
+                    <input id="formNumber" type="text" name="number" class="form__input _req">
+                </div>
+                <div class="form__item">
+                    <label for="formAddress" class="form__label">Адрес доставки:*:</label>
+                    <input id="formAddress" type="text" name="address" class="form__input _req">
+                </div>
+                <div class="form__item">
+                    <label for="formSox" class="form__label">Какие носки хотели бы купить:*:</label>
+                    <input id="formSox" type="text" name="sox" class="form__input _req">
+                </div>
+                <div class="form__item">
+                    <div class="checkbox">
+                        <input id="formAgreement" checked type="checkbox" name="agreement" class="checkbox__input _req">
+                        <label for="formAgreement" class="checkbox__label"><span>Я принимаю условия <a href="#">Пользовательского соглашения</a> и даю своё согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных»</span></label>
+                    </div>
+                </div>
+                <button type="submit" class="form__button">Отправить</button>
+            </form>
+        </div>
+    </div>
+    <div class="exit_button">
+        <a href="catalog.html"><img src="img/close.png"></a>
+    </div>
+    <script src="SendForm.js"></script>
+</body>
+</html>
